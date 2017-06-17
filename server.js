@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 
-mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds129442.mlab.com:29442/heroku_37cpr06d");
+mongoose.connect("mongodb://heroku_37cpr06d:h8rcfmpoah3anni5c470o6hf4@ds129442.mlab.com:29442/heroku_37cpr06d");
 
 var db = mongoose.connection;
 
