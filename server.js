@@ -5,7 +5,7 @@ var express = require("express"),
 
 
 var app = express(),
-    PORT = 8080 || process.env.PORT;
+    PORT = process.env.PORT || 8080; 
 
 app.use(express.static("./public"));
 
