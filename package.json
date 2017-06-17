@@ -1,0 +1,39 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "New York Times - React, Node.js, Express, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"webpack -w & node server.js",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karlosgardner/NY-Times-App"
+  },
+  "keywords": [],
+  "author": "Karlos Gardner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlosgardner/NY-Times-App"
+  },
+  "homepage": "https://github.com/karlosgardner/NY-Times-App/blob/master/README.md",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}

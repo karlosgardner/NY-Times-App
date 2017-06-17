@@ -1,0 +1,25 @@
+.container{
+    margin-top:10px;
+}
+
+.info{
+    display: flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+
+.note, .info{
+    padding:10px;
+    border-radius: 4px;
+    border:1px solid lightgray;
+}
+
+.panel-title{
+    text-align: center;
+}
+
+.col{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
